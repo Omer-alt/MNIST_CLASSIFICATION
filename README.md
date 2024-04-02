@@ -63,7 +63,6 @@ Run the main file
 ```bash
   main.py
 ```
-
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
