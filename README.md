@@ -1,4 +1,4 @@
-# implementation of multi-class classification by training the soft-max regression model and neural network on MNIST dataset. 😜
+# implementation of multi-class classification by training the soft-max regression model and neural network on MNIST dataset.
 
 
 This repository presents the implementation of multi-class classification in different ways: softmax regression, 1-hidden layer neural network and transfer learning...
