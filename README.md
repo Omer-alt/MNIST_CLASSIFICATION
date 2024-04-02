@@ -40,9 +40,9 @@ What about optimizations in this code ? You can notice the usage of
 
 ## Tech Stack
 
-**Language:** Python, Pytorch
+**Language:** Python
 
-**Package:** Numpy, matplotlib, torchvision
+**Package:** Numpy, matplotlib, Pytorch
 
 ## Run Locally
 
