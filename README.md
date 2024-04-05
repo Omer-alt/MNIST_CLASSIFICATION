@@ -10,7 +10,7 @@ MNIST data were separated into even and odd sets before classification
 ### 1. Softmax regression
 #### 1.1 Softmax regression for even
 ![softmax regression for even](/assets/Task-1-even.png)
-
+S
 #### 1.2 Softmax regression for odd
 ![softmax regression for odd](/assets/Task-1-odd.png)
 
@@ -30,6 +30,21 @@ MNIST data were separated into even and odd sets before classification
 
 ### 3.2 transfer learning from even to odd
 ![transfer learning for odd](/assets/Task-3-Odd.png)
+
+#### comparison summary in a table
+
+| percentage | datatype | Tache1                     | Tache3    |
+| :--------  | :------- | :------------------------- |:----------|
+|    `10%`   | `even`   |           `95,03`          |  `95,05`  |
+|     `10%`  | `odd`    |           `93,17`          |  `97,17`  |
+|    `25%`   | `even`   |           `95,43`          |  `95,11`  |
+|     `25%`  | `odd`    |           `94,84`          |  `98,01`  |
+|    `50%`   | `even`   |           `9,`          |  `9,`  |
+|     `50%`  | `odd`    |           `9,`          |  `9,`  |
+|    `80%`   | `even`   |           `9,`          |  `9,`  |
+|     `80%`  | `odd`    |           `9,`          |  `9,`  |
+|    `100%`  | `even`   |           `9,`          |  `9,`  |
+|     `100%` | `odd`    |           `9,`          |  `9,`  |
 
 ## Optimizations
 
