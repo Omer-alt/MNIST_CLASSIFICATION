@@ -49,7 +49,7 @@ What about optimizations in this code ? You can notice the usage of
 Clone the project
 
 ```bash
-  git clone https://github.com/Omer-alt/Basic_ML_Algorithm.git
+  git clone https://github.com/Omer-alt/MNIST_CLASSIFICATION.git
 ```
 
 Go to the project directory
