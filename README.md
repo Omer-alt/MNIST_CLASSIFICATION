@@ -1,37 +1,50 @@
-# implementation of multi-class classification by training the soft-max regression model and neural network on MNIST dataset.
+# Multi-Class Classification on MNIST
+ This repository implements multi-class classification using different approaches:
+  -Softmax Regression
+  -1-Hidden Layer Neural Network
+  -Transfer Learning
+  -Others
 
+## Overview
+The MNIST dataset is split into even and odd digit sets before classification.
+Each model is trained separately on the even and odd subsets to compare performance.
 
-This repository presents the implementation of multi-class classification in different ways: softmax regression, 1-hidden layer neural network and transfer learning...
 
 ## I. Data processing
 
-MNIST data were separated into even and odd sets before classification
+Before classification, the MNIST dataset is divided into two subsets:
 
+*Even digits (0, 2, 4, 6, 8)
+*Odd digits (1, 3, 5, 7, 9)
+
+## Implemented models
 ### 1. Softmax regression
-#### 1.1 Softmax regression for even
+Applied to:
+#### 1.1 Even digits
 ![softmax regression for even](/assets/Task-1-even.png)
 S
-#### 1.2 Softmax regression for odd
+#### 1.2 Odd digits
 ![softmax regression for odd](/assets/Task-1-odd.png)
 
-## 2. One-hidden layer neural network
-
-### 2.1 One-hidden layer neural network for even
+### 2. One-hidden layer neural network
+Neural Network applied to:
+#### 2.1 Even digits
 ![neural network for even](/assets/Task-2-even.png)
 
-### 2.2 One-hidden layer neural network for odd
+#### 2.2 Odd digits
 ![neural network for odd](/assets/Task-2-odd.png)
 
 
-## 3. transfer learning
- 
-### 3.1 transfer learning from odd pre-trained model to even
+### 3. transfer learning
+ Transfer learning is used to transfer knowledge from a model trained on one dataset to another.
+
+#### 3.1 transfer learning from odd pre-trained model to even
 ![transfer learning for even](/assets/Task-3-even.png)
 
-### 3.2 transfer learning from even to odd
+#### 3.2 transfer learning from even to odd
 ![transfer learning for odd](/assets/Task-3-Odd.png)
 
-#### comparison summary in a table
+## Performance comparison
 
 | percentage | datatype | Tache1                     | Tache3    |
 | :--------  | :------- | :------------------------- |:----------|
@@ -48,9 +61,9 @@ S
 
 ## Optimizations
 
-What about optimizations in this code ? You can notice the usage of
--  OOP paradigm
-- Adam Gradient descent
+his project incorporates several optimizations:
+- Object-Oriented Programming (OOP) for better modularity and reusability
+- Adam Optimizer for efficient gradient descent
 
 
 ## Tech Stack
